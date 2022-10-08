@@ -17,7 +17,7 @@ if user_answer.lower() == 'ready':
         correct += 1
         total_point += 3 - j
         print("Ответ верный!")
-        break;
+        break
       elif 2 - j != 0:
         print(f"Попробуйте еще")
         print(f"У вас осталось {2 - j} попыток")
