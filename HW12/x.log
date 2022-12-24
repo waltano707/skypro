@@ -1,0 +1,8 @@
+2022-12-24 12:49:33,080 - [INFO] - log - (main.py).page_index(14) - load main page
+2022-12-24 12:49:33,080 - [INFO] - log - (main.py).page_index(14) - load main page
+2022-12-24 12:49:48,916 - [INFO] - log - (main.py).page_search(24) - load search page
+2022-12-24 12:49:48,916 - [INFO] - log - (main.py).page_search(24) - load search page
+2022-12-24 12:50:05,573 - [ERROR] - log - (utils.py).save_uploaded_file(13) - Wrong Formate
+2022-12-24 12:50:05,573 - [ERROR] - log - (utils.py).save_uploaded_file(13) - Wrong Formate
+2022-12-24 12:54:07,432 - [INFO] - log - (main.py).page_index(14) - load main page
+2022-12-24 12:54:07,432 - [INFO] - log - (main.py).page_index(14) - load main page
