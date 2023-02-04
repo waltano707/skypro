@@ -1,8 +1,8 @@
 from utils import *
 import os
 
-WORDS_FILE = os.path.join("..", "data", "words.txt")
-HISTORY_FILE = os.path.join("..", "data", 'history.txt')
+WORDS_FILE = os.path.join("data", "words.txt")
+HISTORY_FILE = os.path.join("data", 'history.txt')
 
 
 def main():

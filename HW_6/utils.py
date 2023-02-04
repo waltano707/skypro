@@ -2,11 +2,6 @@ import random
 
 
 def read_data(file_name):
-    words = []
-    # with open('words.txt', 'r', encoding='utf-8') as words_data:
-    #     while line := words_data.readline():
-    #         words.append(line.replace("\n", ""))
-    # return words
     with open(file_name, 'r', encoding='utf-8') as words_data:
         words = words_data.readlines()
 
