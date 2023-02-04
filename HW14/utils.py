@@ -30,4 +30,5 @@ def step_6(film_type, release_year, genre):
     return [dict(row) for row in result]
 
 
-print(step_5('Rose McIver', 'Ben Lamb'))
+if __name__ == '__main__':
+    print(step_5('Rose McIver', 'Ben Lamb'))
