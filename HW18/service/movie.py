@@ -1,3 +1,6 @@
+import datetime
+
+
 class MovieService:
 
     def __init__(self, dao):
@@ -10,6 +13,8 @@ class MovieService:
         return self.dao.get_one(pk)
 
     def create(self, data):
+        data['create'] = datetime.datetime.now()
+
         return self.dao.create(data)
 
     def delete(self, pk):

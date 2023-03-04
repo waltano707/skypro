@@ -25,6 +25,11 @@ class MoviesView(Resource):
         return MovieSchema(many=True).dump(objs), 200
 
     def post(self):
+        try:
+            MovieSchema().load(request.json)
+        except ValueError:
+            return "Неверные данные"
+
         obj = movie_service.create(request.json)
         return MovieSchema().dump(obj), 201, {'location': f'/movie/{obj.id}'}
 

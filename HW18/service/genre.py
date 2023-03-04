@@ -13,6 +13,10 @@ class GenreService:
         return self.dao.create(data)
 
     def delete(self, pk):
+
+        #
+        from implemented import movie_dao
+        movie_dao.get_all()
         return self.dao.delete(pk)
 
     def update(self, pk, data):
