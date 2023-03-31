@@ -10,6 +10,10 @@ movie_ns = Namespace('movie')
 @movie_ns.route('/')
 class MoviesView(Resource):
     def get(self):
+        filters = {}
+
+        if request.args.get('director_id') != None:
+            filters['director_id'] = request.args.get('director_id')
 
         filters = {}
         if director_id := request.args.get('director_id'):
