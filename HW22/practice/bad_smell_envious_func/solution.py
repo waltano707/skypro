@@ -1,16 +1,26 @@
-class Cube:
+class Figure:
+    def volume(self):
+        ...
+
+
+class Cube(Figure):
 
     def __init__(self, x, y, z):
         self.x = x
         self.y = y
         self.z = z
 
-    def get_volume(self):
+    @property
+    def volume(self):
         return self.x * self.y * self.z
 
 
-class CubeVolumeCalculator:
+class FigureVolumeCalculator:
 
     @staticmethod
-    def calc_cube_volume(cube):
-        return cube.get_volume()
+    def calc_volume(figure: Figure):
+        return figure.volume()
+
+
+
+

@@ -40,6 +40,5 @@ class Person:
     def get_city_population(self):
         return self.planet.get_contry().get_city().population()
 
-
 # TODO после выполнения задания попробуйте
 # сделать экземпляр класса person и вызвать новые методы.

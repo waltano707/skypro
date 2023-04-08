@@ -54,7 +54,7 @@ class Unit:
             elif d == 'RIGHT':  # если направление нашего движения установлено как RIGHT
                 new_y = field_2_param  # оставим нашу координату Y без изменений
                 new_x = feld_1_param + points_per_action  # увеличим нашу координату Х на нашу текущую скорость
-
+            # для начала реализуем логику для состояния когда мы летим
             field.set_unit(x=new_x, y=new_y, unit=self)
 
 #     ...
