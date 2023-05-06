@@ -1,4 +1,4 @@
-import random
+
 
 MORZE_CODE = {
   "0": "-----",
@@ -55,6 +55,7 @@ def morse_encode(word):
   return encode
 
 
+import random
 def get_word(words):
   return random.choice(words)
 

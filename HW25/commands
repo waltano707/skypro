@@ -1,0 +1,6 @@
+ssh-keygen
+cat /home/zver/.ssh/id_rsa.pub
+ssh skypro@51.250.109.178
+dig +trace ZVERSKYPRO.EU.ORG
+host ZVERSKYPRO.EU.ORG
+ZVERSKYPRO.EU.ORG
